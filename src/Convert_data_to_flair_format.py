@@ -2,6 +2,8 @@ from flair.data import Sentence
 from flair.models import SequenceTagger
 import spacy
 from spacy.gold import biluo_tags_from_offsets
+from spacy.tokenizer import Tokenizer
+import re
 
 nlp = spacy.load('en_core_web_sm')
 
@@ -18,7 +20,7 @@ def getNewTags(tags):
     return new_tags
 
 def writeDataToTextFile(docs):
-    with open("data/file.txt", "w", encoding="utf-8") as file:
+    with open("data/file_dev.txt", "w", encoding="utf-8") as file:
         for doc in docs:
             for name, label in zip(doc[0], doc[1]):
                 print(name, label)
@@ -27,7 +29,20 @@ def writeDataToTextFile(docs):
 
 def convertDataToFlair(TRAIN_DATA):
 
-    print("HELLOWORLD")
+    prefix_re = re.compile(r'''^[[("']''')
+    suffix_re = re.compile(r'''[])"']$''')
+    infix_re = re.compile(r'''[.\,\?\:\;\...\‘\’\`\“\”\"\'~]''')
+
+    # simple_url_re = re.compile(r'''[a-zA-Z0-9]/+''')
+
+    def custom_tokenizer(nlp):
+        return Tokenizer(nlp.vocab,
+                         prefix_search=prefix_re.search,
+                         suffix_search=suffix_re.search,
+                         infix_finditer=infix_re.finditer)
+
+    nlp.tokenizer = custom_tokenizer(nlp)
+
     docs = []
     for text, annot in TRAIN_DATA:
         tokens = []

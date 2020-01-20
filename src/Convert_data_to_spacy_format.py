@@ -28,5 +28,7 @@ def readData(path):
 
 
 if __name__ == '__main__':
-    TRAIN_DATA = readData("data/train-refactored.json")
+
+
+    TRAIN_DATA = readData("data/dev-refactored.json")
     convertDataToFlair(TRAIN_DATA)
