@@ -8,13 +8,11 @@ from spacy.tokenizer import Tokenizer
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 
 
-
 def check_ner():
     tagger = SequenceTagger.load('ner')
     sentence = Sentence('I love Berlin!')
     tagger.predict(sentence)
     print(sentence.to_tagged_string())
-
 
     TRAIN_DATA = [
         ("Who is Shaka Khan?", {"entities": [(7, 17, "PERSON")]}),
@@ -28,12 +26,14 @@ def check_ner():
         tags = biluo_tags_from_offsets(doc, annot['entities'])
         print("TAGS->>>>>>>>>>>..", tags)
 
+
 if __name__ == '__main__':
     def custom_tokenizer(nlp):
         infix_re = re.compile(r'''[.\,\?\:\;\...\‘\’\`\“\”\"\'~]''')
         prefix_re = compile_prefix_regex(nlp.Defaults.prefixes)
         # suffix_re = compile_suffix_regex(nlp.Defaults.suffixes)
-        suffix_re = re.compile('…$|……$|,$|:$|;$|\\!$|\\?$|¿$|؟$|¡$|\\($|\\)$|\\[$|\\]$|\\{$|\\}$|<$|>$|_$|#$|\\*$|&$|。$|？$|！$|，$|、$|；$|：$|～$|·$|।$|،$|۔$|؛$|٪$|\\.\\.+$|…$|\\\'$|"$|”$|“$|`$|‘$|´$|’$|‚$|,$|„$|»$|«$|「$|」$|『$|』$|（$|）$|)
+        suffix_re = re.compile(
+            '…$|……$|,$|:$|;$|\\!$|\\?$|¿$|؟$|¡$|\\($|\\)$|\\[$|\\]$|\\{$|\\}$|<$|>$|_$|#$|\\*$|&$|。$|？$|！$|，$|、$|；$|：$|～$|·$|।$|،$|۔$|؛$|٪$|\\.\\.+$|…$|\\\'$|"$|”$|“$|`$|‘$|´$|’$|‚$|,$|„$|»$|«$|「$|」$|『$|』$|（$|）$|)
         return Tokenizer(nlp.vocab, prefix_search=prefix_re.search,
                          suffix_search=suffix_re.search,
                          infix_finditer=infix_re.finditer,

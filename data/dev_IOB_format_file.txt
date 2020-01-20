@@ -7,7 +7,7 @@ make O
 it O
 clear O
 that O
-ATP-bound -
+ATP-bound chemical
 forms O
 of O
 ORC B-protein-complex
@@ -56,7 +56,7 @@ and O
 Eps15R B-protein
 bind O
 to O
-NPF-containing -
+NPF-containing protein-motif
 peptides O
 
 We O
@@ -321,7 +321,7 @@ apoE4 B-protein-isoform
 ) O
 and O
 reduced O
-LRP-dependent -
+LRP-dependent protein
 uptake O
 of O
 apoE4/Abeta B-protein-complex
@@ -409,7 +409,7 @@ also O
 sufficient O
 to O
 support O
-bFGF-mediated -
+bFGF-mediated protein
 activation O
 . O
 
@@ -756,7 +756,7 @@ by O
 arrestin B-protein-family
 binding O
 to O
-P-Rh* -
+P-Rh* protein
 ( O
 16 O
 , O
@@ -783,7 +783,7 @@ active O
 state O
 . O
 
-SMAD-induced -
+SMAD-induced protein-family
 transcriptional O
 stimulation O
 is O
@@ -918,7 +918,7 @@ cytoplasmic O
 tails O
 bind O
 to O
-α-actinin-2 -
+α-actinin-2 protein
 , O
 we O
 did O
@@ -1002,7 +1002,7 @@ double-reciprocal O
 plot O
 for O
 the O
-adducin-dependent -
+adducin-dependent protein
 binding O
 of O
 spectrin B-protein-complex
@@ -1277,7 +1277,7 @@ beads I-reagent
 . O
 
   O
-GST-fusion -
+GST-fusion experiment-tag
 protein O
 or O
 GST O
@@ -1317,7 +1317,7 @@ of O
 transcriptional O
 repressors O
 , O
-Dr1/DRAP1 -
+Dr1/DRAP1 protein
 , O
 HMG1 B-protein
 , O
@@ -1856,7 +1856,7 @@ iron O
 carrier O
 transferrin B-protein-family
 ( O
-Tf) -
+Tf) protein-family
 , O
 which O
 initially O
@@ -2106,7 +2106,7 @@ clustering O
 Sema3A B-protein
 binding O
 to O
-NP-1/Plex -
+NP-1/Plex protein
 1 -
 - O
 expressing O
@@ -2152,7 +2152,7 @@ vivo O
 K O
 d O
 for O
-TNP-ATP -
+TNP-ATP chemical
 binding O
 to O
 MBP_6 B-protein
@@ -2271,7 +2271,7 @@ effects O
 of O
 phosphorylation O
 on O
-fascin-actin -
+fascin-actin protein-family
 binding O
 and O
 found O
@@ -2337,11 +2337,11 @@ form I-protein
 of I-protein
 Rab3a I-protein
 inhibits O
-Ca2+-induced -
+Ca2+-induced chemical
 exocytosis O
 by O
 sequestering O
-Ca2+/CaM -
+Ca2+/CaM protein-family
 . O
 
   O
@@ -2374,7 +2374,7 @@ respectively O
 We O
 studied O
 the O
-fMLP-induced -
+fMLP-induced chemical
 activation O
 of O
 p38 B-protein-family
@@ -2601,7 +2601,7 @@ the O
 SH2 B-protein-domain
 domain O
 impairs O
-IGF-I-mediated -
+IGF-I-mediated protein
 ubiquitination O
 of O
 the O
@@ -2863,7 +2863,7 @@ itself O
 Various O
 quantities O
 of O
-GST-syntaxin-1a -
+GST-syntaxin-1a protein
 were O
 incubated O
 with O
@@ -3036,11 +3036,11 @@ Abl B-protein
 SrcKD B-protein
 , O
 and O
-GST-tagged -
+GST-tagged experiment-tag
 Cbl B-protein
 . O
 
-GST-Cbl -
+GST-Cbl experiment-tag
 was O
 precipitated O
 , O
@@ -3139,7 +3139,7 @@ solution O
 . O
 
 Direct O
-SH2-mediated -
+SH2-mediated protein-domain
 binding O
 of O
 Shc B-protein
@@ -3189,7 +3189,7 @@ this O
 we O
 isolated O
 the O
-F-actin -
+F-actin protein
 binding O
 part O
 of O
@@ -3368,13 +3368,13 @@ expression O
 22) O
 . O
 
-dTCF/Pangolin -
+dTCF/Pangolin protein
 is O
 the O
 cofactor O
 necessary O
 for O
-Armadillo-dependent -
+Armadillo-dependent protein-motif
 transcriptional O
 activitation O
 , O
@@ -3553,7 +3553,7 @@ h O
 after O
 activation O
 of O
-Myc) -
+Myc) protein-family
 ; O
 taken O
 together O
@@ -3748,7 +3748,7 @@ FGF-2 O
 . O
 
 Such O
-ATP-dependent -
+ATP-dependent chemical
 binding O
 of O
 Hsc70 B-protein
@@ -4288,7 +4288,7 @@ of O
 Clb2 B-protein
 and O
 the O
-GTP-bound -
+GTP-bound chemical
 form O
 of O
 Cdc42 B-protein
@@ -4305,7 +4305,7 @@ TIM B-protein
 alone O
 cannot O
 repress O
-dCLK-CYC-mediated -
+dCLK-CYC-mediated protein-complex
 transcription O
 of O
 an O
@@ -4322,7 +4322,7 @@ that O
 TIM O
 disrupts O
 the O
-DNA-binding -
+DNA-binding DNA
 ability O
 of O
 dCLK O
@@ -4668,7 +4668,7 @@ RhoA B-protein
 , O
 and O
 mediates O
-Wnt-induced -
+Wnt-induced protein-family
 Dsh-RhoA B-protein-complex
 complex O
 formation O
@@ -4808,7 +4808,7 @@ We O
 found O
 that O
 the O
-GST-SET -
+GST-SET experiment-tag
 domain -
 fusion O
 protein O
@@ -5051,7 +5051,7 @@ CYFIP2 B-protein
 or O
 PIR121 B-protein
 or O
-pop) -
+pop) protein
 , O
 which O
 presents O
@@ -5078,7 +5078,7 @@ binding O
 only O
 to O
 the O
-GTP-bound -
+GTP-bound chemical
 form O
 of O
 Rac1 O
@@ -5230,7 +5230,7 @@ manner O
 , O
 and O
 that O
-Csk-inactivated -
+Csk-inactivated protein
 Src O
 is O
 reactivated O
@@ -5256,7 +5256,7 @@ an O
 adaptor O
 required O
 for O
-clathrin-mediated -
+clathrin-mediated protein-complex
 internalization O
 of O
 L1 O
@@ -5273,7 +5273,7 @@ testing O
 the O
 effects O
 of O
-GST-Mnbk/ -
+GST-Mnbk/ experiment-tag
 Dyrk1A -
 supplementation O
 on O
@@ -5282,7 +5282,7 @@ binding O
 of O
 dynamin B-protein-family
 to O
-GST-Amp(SH3) -
+GST-Amp(SH3) experiment-tag
 . O
 
 In O
@@ -5376,7 +5376,7 @@ denotes O
 weak O
 binding O
 to O
-DNA) -
+DNA) DNA
 . O
 
 These O
@@ -5448,7 +5448,7 @@ the O
 strength O
 of O
 the O
-tubulin-motor -
+tubulin-motor protein-family
 interaction O
 partly O
 overrides O
@@ -5575,7 +5575,7 @@ the O
 possibility O
 that O
 the O
-IVT-Hairy -
+IVT-Hairy protein
 is O
 homodimerizing O
 in O
@@ -5596,7 +5596,7 @@ Hairy O
 subunits O
 binding O
 to O
-GST-dCtBP -
+GST-dCtBP experiment-tag
 and O
 the O
 other O
@@ -5739,7 +5739,7 @@ These O
 results O
 suggest O
 that O
-l-afadin -
+l-afadin protein
 and O
 vinculin B-protein
 bind O
@@ -6056,7 +6056,7 @@ of O
 EMSA B-assay
 studies O
 , O
-Sp1/Sp3 -
+Sp1/Sp3 protein
 overexpression O
 experiments O
 in O
@@ -6120,7 +6120,7 @@ Fig O
 
 EB1 B-protein
 binds O
-Pin2/TRF1 -
+Pin2/TRF1 protein
 in O
 vitro O
 and O

@@ -2,68 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e46e8d-d63e-4983-b13d-b2ff35db220c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dev-refactored.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train-refactored.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/New Text Document.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/file_dev.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/file_train.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/checking spacy and json.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/checking spacy and json.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/file_dev.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/file_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/loss.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/test.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/weights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/weights.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Convert_data_to_flair_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Convert_data_to_flair_format.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Convert_data_to_spacy_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Convert_data_to_spacy_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ner_sample_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ner_sample_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ner_sample_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ner_sample_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Convert_data_to_spacy_format.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Convert_data_to_spacy_format.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="94" lean-forward="true" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Convert_data_to_flair_format.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Convert_data_to_flair_format.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.conda/envs/.enc/Lib/site-packages/numpy/core/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,49 +41,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ner_sample_test.py" />
-        <option value="$PROJECT_DIR$/src/ner_sample_test2.py" />
-        <option value="$PROJECT_DIR$/src/Convert_data_to_spacy_format.py" />
-        <option value="$PROJECT_DIR$/src/Convert_data_to_flair_format.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="13" />
-    <option name="y" value="-17" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="flairExperiments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flairExperiments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flairExperiments" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flairExperiments" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1WeVWL2vAXNCP0SeH9ezX4EDW4H" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Convert_data_to_spacy_format">
+  <component name="RunManager" selected="Python.model">
     <configuration name="Convert_data_to_flair_format" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flairExperiments" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,6 +82,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Convert_data_to_spacy_format" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flairExperiments" />
@@ -167,6 +103,30 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flairExperiments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="ner_sample_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flairExperiments" />
@@ -185,6 +145,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="ner_sample_test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flairExperiments" />
@@ -203,15 +166,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.ner_sample_test" />
       <item itemvalue="Python.Convert_data_to_flair_format" />
       <item itemvalue="Python.ner_sample_test2" />
       <item itemvalue="Python.Convert_data_to_spacy_format" />
+      <item itemvalue="Python.model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.model" />
         <item itemvalue="Python.Convert_data_to_spacy_format" />
         <item itemvalue="Python.ner_sample_test2" />
         <item itemvalue="Python.Convert_data_to_flair_format" />
@@ -232,39 +200,26 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3910891" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Convert_data_to_flair_format.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="20" />
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/anaconda3/envs/flairExperiments/lib/python3.6/site-packages/flair/datasets.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -274,108 +229,6 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="21" />
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>TRAIN_DATA[0][0][34:39]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>TRAIN_DATA[0][0][43:46]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>TRAIN_DATA[0][0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>TRAIN_DATA[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>for a, b in TRAIN_DATA: a, b</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>TRAIN_DATA</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>for a, b in TRAIN_DATA: print(a, b)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>for a, b in data[0]: print(a, b)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>for a, b in data[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.conda/envs/.enc/Lib/site-packages/numpy/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ner_sample_test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/train-refactored.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ner_sample_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Convert_data_to_flair_format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Convert_data_to_spacy_format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="94" lean-forward="true" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
