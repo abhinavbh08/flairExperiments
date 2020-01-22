@@ -1,5 +1,6 @@
 import json
 from Convert_data_to_flair_format import convertDataToFlair
+from convertDataToLSTMFORMAT import convertDataToLstm
 
 
 # Since spacy doesn't take overlapping entities as inputs, we are not using the overlapping entities
@@ -10,6 +11,7 @@ def readData(path):
 
     TRAIN_DATA = []
     SLOTS_INFO = []
+    IDS = []
     for i, dataItem in enumerate(data):
         entitiesDict = {}
         entitiesDict["entities"] = []
@@ -26,11 +28,13 @@ def readData(path):
                     (slotItem['startIndex'], slotItem['endIndex'], slotItem['slotName']))
 
         TRAIN_DATA.append((dataItem['text'], entitiesDict))
+        IDS.append(dataItem["id"])
 
-    return TRAIN_DATA, SLOTS_INFO
+    return TRAIN_DATA, SLOTS_INFO, IDS
 
 
 if __name__ == '__main__':
-    PATH = "data/dev-refactored.json"
-    DATA, SLOTS_INFO = readData(PATH)
-    convertDataToFlair(DATA, SLOTS_INFO, train=False)
+    PATH = "data/train-refactored.json"
+    DATA, SLOTS_INFO, IDS = readData(PATH)
+    # convertDataToFlair(DATA, SLOTS_INFO, train=False)
+    convertDataToLstm(DATA, SLOTS_INFO, IDS, train=True)

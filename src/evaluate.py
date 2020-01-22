@@ -451,7 +451,7 @@ class BootstrapEvaluation(object):
                     print(' ')
 
 
-defmain():
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--truth_path', '-t', required=True, type=str)
     parser.add_argument('--prediction_path', '-path', nargs='*', required=True, type=str)

@@ -14,7 +14,8 @@ def get_corpus_and_tagger():
     # init a corpus using column format, data folder and the names of the train, dev and test files
     corpus: Corpus = ColumnCorpus(data_folder, columns,
                                   train_file='train_IOB_Format_file.txt',
-                                  dev_file="train_IOB_Format_file.txt")
+                                  test_file='train_IOB_Format_file.txt',
+                                  dev_file="dev_IOB_format_file.txt")
 
     tag_type = 'ner'
 
@@ -23,7 +24,7 @@ def get_corpus_and_tagger():
 
     embedding_types: List[TokenEmbeddings] = [
 
-        #     WordEmbeddings('glove'),
+        WordEmbeddings('glove'),
 
         # comment in this line to use character embeddings
         #     CharacterEmbeddings(),
@@ -54,7 +55,7 @@ def train_model(corpus, tagger):
     trainer.train('models/',
                   learning_rate=0.1,
                   mini_batch_size=16,
-                  max_epochs=10)
+                  max_epochs=20)
 
 
 if __name__ == '__main__':

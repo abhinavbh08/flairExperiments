@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e46e8d-d63e-4983-b13d-b2ff35db220c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/convertDataToLSTMFORMAT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/New Text Document.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/file_dev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/file_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/checking spacy and json.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/checking spacy and json.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/file2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/file_dev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/file_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/loss.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/test.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/weights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/weights.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Convert_data_to_flair_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Convert_data_to_flair_format.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Convert_data_to_spacy_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Convert_data_to_spacy_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ner_sample_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ner_sample_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model">
+  <component name="RunManager" selected="Python.Convert_data_to_spacy_format">
     <configuration name="Convert_data_to_flair_format" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flairExperiments" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,8 +162,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.model" />
         <item itemvalue="Python.Convert_data_to_spacy_format" />
+        <item itemvalue="Python.model" />
         <item itemvalue="Python.ner_sample_test2" />
         <item itemvalue="Python.Convert_data_to_flair_format" />
         <item itemvalue="Python.ner_sample_test" />
@@ -220,6 +203,11 @@
           <url>file://$USER_HOME$/anaconda3/envs/flairExperiments/lib/python3.6/site-packages/flair/datasets.py</url>
           <line>64</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/convertDataToLSTMFORMAT.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
